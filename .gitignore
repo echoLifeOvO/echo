@@ -1,0 +1,41 @@
+# Local secrets and private material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+private/
+credentials/
+
+# Dependencies, cache, temporary files
+.DS_Store
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/tmp/
+
+# Databases and rendered media; track source and manifests instead
+*.sqlite
+*.sqlite3
+*.db
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.wav
+
+# Existing independent repositories
+/cordis/
+/life-as-history/
+
+# Existing material pending selective review; see docs/existing-materials.md
+/.codex/
+/game-adaptations/
+/output/
+/zhihu_archive/
+/research/github-infra-2026-09-07/
+/install-production-wrapper.txt
+/qwen_concurrency_probe.py
