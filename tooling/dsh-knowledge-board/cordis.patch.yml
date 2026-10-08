@@ -1,0 +1,18 @@
+# dsh-knowledge-board bundle layer.
+#
+# One row: the plugin's own package. Its host half registers the read-only
+# `/board-api` JSON routes; its client half registers the board page into the
+# central `main` slot plus the sidebar entry that selects it.
+#
+# The content root defaults to `../../learning` relative to this package (i.e.
+# the workspace's learning directory) and can be overridden per install:
+#
+#   - insert:
+#       - id: knowledge-board
+#         name: dsh-knowledge-board
+#         config:
+#           contentRoot: /absolute/path/to/learning
+
+- insert:
+    - id: knowledge-board
+      name: dsh-knowledge-board

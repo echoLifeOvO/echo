@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session cost",
+    "description": "Shows this session's spend and the account balance on the ambient row below the composer; the cost is priced locally from the session log."
+  }
+}

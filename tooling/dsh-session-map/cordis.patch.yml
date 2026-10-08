@@ -1,0 +1,9 @@
+# dsh-session-map bundle layer.
+#
+# One row: the plugin's own package. The client half registers a full-window
+# session map into the central `main` slot (⌘⇧M toggles it) and collapses the
+# sidebar once at startup. No configuration.
+
+- insert:
+    - id: session-map
+      name: dsh-session-map

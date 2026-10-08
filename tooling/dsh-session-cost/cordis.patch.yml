@@ -1,0 +1,15 @@
+# dsh-session-cost bundle layer.
+#
+# One row: the plugin's own package. The host half registers the read-only
+# `/cost-api` routes (session cost folded from the durable log, cached account
+# balance); the client half adds `spent / remaining` to the ambient row below
+# the composer.
+#
+# Optional tuning, added under this entry's `config`:
+#   balanceTtlMs: 900000        how long a balance reading is reused (default 15 min)
+#   model: deepseek-flash       price table used when the log names no model
+#   prices: {...}               override the built-in official price table
+
+- insert:
+    - id: session-cost
+      name: dsh-session-cost

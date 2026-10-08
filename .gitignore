@@ -16,6 +16,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 /tmp/
+learning/.board-focus.json
 
 # Databases and rendered media; track source and manifests instead
 *.sqlite

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Knowledge Board",
+    "description": "A persistent local knowledge board, rendered full-page in the main area and fed by JSON files in the workspace."
+  }
+}

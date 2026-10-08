@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session map",
+    "description": "Lays every workspace and session out on a full-window canvas, with each card showing live status. Toggle with Cmd+Shift+M."
+  }
+}
